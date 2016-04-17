@@ -1,0 +1,27 @@
+Package: Mdata
+Type: Package
+Title: Basic manipulations with data.
+Version: 0.1
+Date: 2016-01-03
+Author: Who wrote it
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+LazyData: TRUE
+Imports:
+    R6,
+    gtools
+Collate:
+    'roxygen.config.R'
+    'Instruction.R'
+    'KeyVariables.R'
+    'MData.R'
+    'MDataManager.R'
+    'MDataSet.R'
+    'MDataUpdater.R'
+    'MInstructionStack.R'
+    'MParameter.R'
+    'MParameterSet.R'
+    'MSet.R'
+    'MStack.R'
+    'UpdaterSet.R'

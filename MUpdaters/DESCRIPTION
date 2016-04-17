@@ -1,0 +1,39 @@
+Package: MUpdaters
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1
+Date: 2016-01-17
+Author: Who wrote it
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+LazyData: TRUE
+Imports:
+    R6,
+    Mdata,
+    XML,
+    stringr,
+    timeDate,
+    TTR
+Collate:
+    'roxygen.config.R'
+    'MDataUpdater.AddNewField.R'
+    'MDataUpdater.Custom.R'
+    'MDataUpdater.CustomTaxonomy.R'
+    'MDataUpdater.ExtractByTime.R'
+    'MDataUpdater.FRED.R'
+    'MDataUpdater.GoogleFinance.News.R'
+    'MDataUpdater.InvestFunds.FundHistory.R'
+    'MDataUpdater.InvestFunds.FundHistory.RUB.R'
+    'MDataUpdater.InvestFunds.FundList.R'
+    'MDataUpdater.MultipleMerge.R'
+    'MDataUpdater.Quandl.R'
+    'MDataUpdater.Universe.Russian.Equities.ENG.R'
+    'MDataUpdater.Universe.Russian.Equities.R'
+    'MDataUpdater.Universe.YF.CorpKeyStat.R'
+    'MDataUpdater.Universe.YF.IndexComponents.R'
+    'MDataUpdater.YF.CompanyProfile.R'
+    'MDataUpdater.YF.MarketData.R'
+    'MarketDataUpdater.Universe.US.Equities.R'
+    'MarketDataUpdater.YF.fundamentals.R'
+RoxygenNote: 5.0.1
