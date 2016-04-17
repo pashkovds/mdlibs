@@ -1,0 +1,6 @@
+*.Rhistory
+*.RData
+Mdata/.Rproj.user
+Mdata/.Rproj.user/	
+MUpdaters/.Rproj.user
+MUpdaters/.Rproj.user/
