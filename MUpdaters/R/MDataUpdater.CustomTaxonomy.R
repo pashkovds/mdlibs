@@ -20,7 +20,7 @@ MDataUpdater.CustomTaxonomy <- R6Class(
       if("new.taxonomy" %in% private$pars$list.names()){
         mdata$smart.df.filling(
           df.data =   data.frame.input,
-          new.taxonomy = private$pars$eval("new.taxonomy")
+          df.taxonomy = private$pars$eval("new.taxonomy")
         )
       }else{
         mdata$smart.df.filling(

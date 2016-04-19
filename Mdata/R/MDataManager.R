@@ -15,13 +15,19 @@ MDataManager <- R6Class(
        private$global.params <- MParameterSet$new()
      },
 
-     add.updater = function(updater) {
-       if(updater$get.params()$eval("updater.name") %in% private$updater.set$list.names()){
+     add.updater = function(updater, force = F) {
+       if((updater$get.params()$eval("updater.name") %in% private$updater.set$list.names())){
          cat("Updater",updater$get.params()$eval("updater.name"), "is already exists! \n")
+         if(force){
+           cat("Creating new updater",updater$get.params()$eval("updater.name"), " (force option enabled) \n")
+           private$updater.set$add(updater$get.params()$eval("updater.name"), updater)
+         }
        }else{
          cat("Creating new updater",updater$get.params()$eval("updater.name"), " \n")
          private$updater.set$add(updater$get.params()$eval("updater.name"), updater)
        }
+
+
      },
 
 

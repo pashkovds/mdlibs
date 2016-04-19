@@ -28,7 +28,6 @@ MDataUpdater.Universe.Russian.Equities.ENG <- R6Class(
           checkForServer()
           startServer()
           remDr <- remoteDriver$new()
-
           remDr$open()
 
           res.list <- lapply(1:nrow(sector.df),function(i){
