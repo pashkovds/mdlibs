@@ -4,7 +4,7 @@
 \name{MSet}
 \alias{MSet}
 \title{MSet}
-\format{\preformatted{Class 'R6ClassGenerator' <environment: 0x2551fe8> 
+\format{\preformatted{Class 'R6ClassGenerator' <environment: 0x20e5610> 
  - attr(*, "name")= chr "MSet_generator"
 }}
 \usage{

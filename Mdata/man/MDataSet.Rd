@@ -4,7 +4,7 @@
 \name{MDataSet}
 \alias{MDataSet}
 \title{MDataSet}
-\format{\preformatted{Class 'R6ClassGenerator' <environment: 0x2b1c048> 
+\format{\preformatted{Class 'R6ClassGenerator' <environment: 0x33e9d80> 
  - attr(*, "name")= chr "MDataSet_generator"
 }}
 \usage{

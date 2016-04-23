@@ -4,7 +4,7 @@
 \name{MDataManager}
 \alias{MDataManager}
 \title{UpdaterSet}
-\format{\preformatted{Class 'R6ClassGenerator' <environment: 0x29c7aa0> 
+\format{\preformatted{Class 'R6ClassGenerator' <environment: 0x35f5da0> 
  - attr(*, "name")= chr "MDataManager_generator"
 }}
 \usage{

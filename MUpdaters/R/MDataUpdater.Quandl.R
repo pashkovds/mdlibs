@@ -15,6 +15,8 @@ MDataUpdater.Quandl <- R6Class(
           api.key <- private$pars$eval("Keys.Quandl")
           Quandl.api_key(api.key)
           data <- Quandl(ticker, order = "asc")
+          colnames(data)[1:2] <- c("DATADATE", "Value")
+          data$EFFDATE <- data$DATADATE
 
           update.time = Sys.Date()
           mdata <- private$get.mdata()

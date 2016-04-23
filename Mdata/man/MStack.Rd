@@ -4,7 +4,7 @@
 \name{MStack}
 \alias{MStack}
 \title{MStack}
-\format{\preformatted{Class 'R6ClassGenerator' <environment: 0x269dd78> 
+\format{\preformatted{Class 'R6ClassGenerator' <environment: 0x312b530> 
  - attr(*, "name")= chr "MStack_generator"
 }}
 \usage{

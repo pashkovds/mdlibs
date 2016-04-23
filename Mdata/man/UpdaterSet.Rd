@@ -4,7 +4,7 @@
 \name{UpdaterSet}
 \alias{UpdaterSet}
 \title{UpdaterSet}
-\format{\preformatted{Class 'R6ClassGenerator' <environment: 0x26d65f8> 
+\format{\preformatted{Class 'R6ClassGenerator' <environment: 0x2271dc8> 
  - attr(*, "name")= chr "UpdaterSet_generator"
 }}
 \usage{

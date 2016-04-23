@@ -4,7 +4,7 @@
 \name{Instruction}
 \alias{Instruction}
 \title{Instruction}
-\format{\preformatted{Class 'R6ClassGenerator' <environment: 0x29a5cf0> 
+\format{\preformatted{Class 'R6ClassGenerator' <environment: 0x3647110> 
  - attr(*, "name")= chr "Instruction_generator"
 }}
 \usage{
